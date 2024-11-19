@@ -1,6 +1,6 @@
-FNB := $(shell find . -name "A[0-9]_*.ipynb" | sort)
+FNB := $(shell find . -name "[0-9]_*.ipynb" | sort)
 FCSS := $(shell find . -name "*.css" | sort)
-FILE = A2_Coursework
+FILE = A2_Coursework_neural_models
 
 all: $(FILE).pdf
 
